@@ -66,5 +66,16 @@ public class ArrayUtil {
         }
         return sum;
     }
+//TODO: create a reusable method that take 2 int array and return one array combinet
+    public static int [] eddCombineArray (int [] arr1, int [] arr2){
+        int [] newArr = Arrays.copyOf(arr1, arr1.length + arr2.length);
+        for (int i = arr1.length; i < newArr.length; i++) {
+            newArr[i] = arr2[i - arr1.length];
+            
+        }
+            return newArr;
+    }
+
+
 }
 
