@@ -1,4 +1,4 @@
-package day08_;
+package day08_newtopic;
 
 public class OrPractice {
     public static void main(String[] args) {
