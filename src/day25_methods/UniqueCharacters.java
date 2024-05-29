@@ -7,7 +7,6 @@ public class UniqueCharacters {
 
     public static String uniqueCharacters (String str) {
         String unique = "";
-        String checked = "";
         for (int i = 0; i < str.length(); i++) {
             char eachletter = str.charAt(i);
             if (!unique.contains("" + eachletter)) {
