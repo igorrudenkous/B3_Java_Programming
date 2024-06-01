@@ -3,8 +3,8 @@ package day32_constructor_chaining_this;
 public class Offer {
     String lacation;
     String company;
-    double salary;
-    boolean isFullTime;
+    public double salary;
+    public boolean isFullTime;
     int numberOfPTO;
 
     public Offer (String company, String lacation) {
