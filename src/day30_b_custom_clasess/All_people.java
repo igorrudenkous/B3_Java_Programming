@@ -15,19 +15,19 @@ public class All_people {
         Person person2 = new Person();
 
         // To access the INSTANCE variables, I need to create an object and use the object reference
-        System.out.println("Person 1 info: ");
+        System.out.println("day34_inheritance.Person 1 info: ");
         System.out.println(person1.name);
         System.out.println(person1.age);
         System.out.println(person1.height);
         System.out.println(person1.isMarried);
         System.out.println("-------------------");
-        System.out.println("Person 2 info: ");
+        System.out.println("day34_inheritance.Person 2 info: ");
         System.out.println(person2.name);
         System.out.println(person2.age);
         System.out.println(person2.height);
         System.out.println(person2.isMarried);
 
-        // Now lets have /assign some values for Person
+        // Now lets have /assign some values for day34_inheritance.Person
         System.out.println("-------------------");
         person1.name = "Tom";
         person1.age = 40;
@@ -39,13 +39,13 @@ public class All_people {
         person2.height = 3.7;
         person2.isMarried = true;
 
-        System.out.println("Person 1 info: ");
+        System.out.println("day34_inheritance.Person 1 info: ");
         System.out.println(person1.name);
         System.out.println(person1.age);
         System.out.println(person1.height);
         System.out.println(person1.isMarried);
         System.out.println("-------------------");
-        System.out.println("Person 2 info: ");
+        System.out.println("day34_inheritance.Person 2 info: ");
         System.out.println(person2.name);
         System.out.println(person2.age);
         System.out.println(person2.height);
