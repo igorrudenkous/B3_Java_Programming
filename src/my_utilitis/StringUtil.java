@@ -29,6 +29,10 @@ public class StringUtil {
         }
         return count;
     }
+    //check valid userName
+    public static boolean isValidUsername(String username) {
+        return username.length() >= 6 && !username.contains(" ");
+    }
 }
 
 
